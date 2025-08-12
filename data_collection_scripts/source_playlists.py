@@ -1,6 +1,6 @@
 import spotipy #type: ignore
 import json
-from config import SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET
+from config.config import SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET
 import requests #type: ignore
 from bs4 import BeautifulSoup #type: ignore
 
