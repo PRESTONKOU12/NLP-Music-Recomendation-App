@@ -1,10 +1,10 @@
 import psycopg2 #type: ignore
 
 def create_tables(cursor):
-    cursor.execute('DROP TABLE IF EXISTS audio_features;')
+    '''cursor.execute('DROP TABLE IF EXISTS audio_features;')
     cursor.execute('DROP TABLE IF EXISTS tracks;')
     cursor.execute('DROP TABLE IF EXISTS artists;')
-    cursor.execute('DROP TABLE IF EXISTS playlists;')
+    cursor.execute('DROP TABLE IF EXISTS playlists;')'''
 
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS artists (

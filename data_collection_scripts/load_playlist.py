@@ -14,7 +14,7 @@ import requests #type: ignore #API calls.
 
 
 #Helper values and functions
-from config.config import DB_PARAMS, SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET
+from config_file import DB_PARAMS, SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET
 from db import create_tables, insert_artist, insert_track, insert_playlist, insert_audio_features
 from itertools import islice
 
